@@ -1,0 +1,205 @@
+		 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+		 #test {
+		 	color: #00FF00;
+		 }
+
+		 body {
+		 	background-color: #001122;
+		 	color: rgb(94, 140, 209);
+		 	margin: 0;
+		 	width: 100%;
+		 	margin: 0 auto;
+		 	/* horizontal center */
+		 }
+
+		 h1 {}
+
+		 h2 {
+		 	font-size: 3.0vh;
+		 }
+
+		 p {
+		 	padding-left: 7vmin;
+		 	padding-right: 7vmin;
+		 	font-size: 1.5em;
+		 }
+
+		 p1 {
+		 	text-align: center;
+		 	font-size: 3.0vh;
+		 }
+
+		 hr {
+		 	border: 0;
+		 	border-top: 1px solid #001111;
+		 	border-bottom: 1px solid #001100;
+		 	box-shadow: 0 4px 8px 0 rgba(150, 0, 200, 0.3), 0 6px 20px 0 rgba(150, 0, 200, 0.19);
+		 }
+
+		 h1 {
+		 	font-family: Verdana;
+		 	text-align: center;
+		 	text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+		 }
+
+		 caption {
+		 	font-family: Helvetica;
+		 	text-align: center;
+		 	color: rgb(94, 140, 209);
+		 	font-size: 3vw;
+		 	font-size: 3vw;
+		 	word-spacing: 2vw;
+		 }
+
+		 th {
+		 	text-align: left;
+		 	font-family: Helvetica;
+		 	color: rgb(94, 140, 209);
+		 	padding-left: 6vmin;
+		 	font-size: 2vmax;
+		 	float: center;
+		 }
+
+		 td {
+		 	font-size: 1vmax;
+		 	padding-right: 6vmin;
+		 }
+
+		 .navbar {
+		 	background-color: #444;
+		 	overflow: hidden;
+		 	text-align: center;
+		 	font-size: 1vmin;
+		 	font-family: Open sans;
+			border-radius: 0em 0em 2em 2em;
+			background-color: rgba(0, 155, 50, 0.75);
+			-webkit-animation: filter-animation 12s infinite;
+  }
+@-webkit-keyframes filter-animation {
+  0% {
+    background-color: rgba(0, 155, 50, 0.75)
+  }
+  
+  25% {
+    background-color: rgba(0, 50, 50, 0.75)
+  }
+  
+  50% {
+    background-color: rgba(50, 0, 100, 0.75)
+  }
+	75% {
+		background-color: rgba(0, 50, 50, 0.75)
+	}
+	100% {
+		background-color: rgba(0, 155, 50, 0.75)
+	}
+		 }
+
+		 .navbar a {
+		 	color: #f2f2f2;
+		 	!important float: center;
+		 	text-align: center;
+		 	padding: 0.5vh 2vh;
+		 	text-decoration: none;
+		 	font-size: 4em;
+		 	align: center;
+
+			
+		 }
+
+		 .navbar a:hover {
+		 	background-color: #00AA66;
+		 	color: black;
+		 }
+
+		 .sticky {
+		 	position: fixed;
+		 	top: 0;
+		 	width: 100%
+		 }
+
+		 .sticky+.content {
+		 	padding-top: 60px;
+		 }
+
+		 .button {
+		 	color: #f2f2f2;
+		 	float: center;
+		 	text-align: center;
+		 	padding: 14px 16px;
+		 	text-decoration: none;
+		 	font-size: 6vmin;
+		 	text-align: center;
+		 }
+
+		 .active {
+		 	background-color: #053;
+		 }
+
+		 .header {
+		 	background-color: #330088;
+		 }
+
+		 .header h1 {
+		 	margin-top: 0px;
+		 	margin-bottom: 0px;
+		 }
+
+		 .header p {
+		 	margin-top: 0px;
+		 	margin-bottom: 0px;
+		 }
+
+		 .footer h1 {
+		 	margin-top: 0px;
+		 	margin-bottom: 0px;
+		 }
+
+		 .footer p {
+		 	margin-top: 0px;
+		 	margin-bottom: 0px;
+		 }
+
+		 .footer {
+		 	background-color: #444;
+		 }
+
+		 .content {}
+
+		 div h1 {}
+
+		 p#overview {
+		 	color: #9651ff;
+		 }
+
+		 .hed {
+		 	text-align: left;
+		 	margin: 3em 5em !important;
+		 	padding: 1em;
+		 	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+		 	font-size: 1em !important;
+		 	text-indent: initial;
+		 	font-weight: bold;
+		 	background-color: #111144;
+		 	border-radius: 4px;
+		 	box-shadow: 0 1px 2px rgba(60, 60, 150, 0.25)
+		 }
+
+		 table {
+		 	padding-left: 10vmin;
+		 }
+.headnav {
+	width: 100%;
+	position: fixed;
+	box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.75);
+}
+
+.cutcorners {
+border-radius:4px;
+}
+.centerp {
+	
+	text-align: center;
+	display: block;
+    margin: 0 auto;
+}
